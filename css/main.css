@@ -37,6 +37,8 @@
     border-radius: 12px;
     border-color: white;
     background-color: #284664;
+    color: white !important;
+    outline: none;
 }
 .input:hover{
     box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
@@ -61,6 +63,7 @@
     z-index: 1;
     position: relative;
 }
+
 .input::placeholder{
     color: white;
 }
