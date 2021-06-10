@@ -5,10 +5,7 @@
 
 }
 .like-icon:hover{
-    color: black;
-}
-.nav-bar {
-    background-color: white;
+    color: white;
 }
 .button-submit{
     border-color: white;
@@ -21,13 +18,19 @@
     color: black;
     transition-duration: -1s;
 }
+.login-btn{
+    background-color: #284664;
+    color: white;
+}
 .login-btn:hover{
-    border-color: black;
+    border-color: white;
+    color: white;
 }
 .card{
     border-radius: 12px;
     border-color: white;
     background-color: transparent;
+    box-shadow: 0px 0px 6px 6px rgb(255, 255, 255);
 }
 
 .input{
@@ -35,10 +38,13 @@
     border-color: white;
     background-color: #284664;
 }
+.input:hover{
+    box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+}
 .header{
     background: url("../img/body.jpeg") 50% 50% no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 .header:after{
     content: "";
