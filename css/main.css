@@ -1,0 +1,64 @@
+
+.like-icon {
+    color: red;
+    font-size: 1.5rem;
+
+}
+.like-icon:hover{
+    color: black;
+}
+.nav-bar {
+    background-color: white;
+}
+.button-submit{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border-radius: 12px;
+}
+.button-submit:hover{
+    background-color: white;
+    color: black;
+    transition-duration: -1s;
+}
+.login-btn:hover{
+    border-color: black;
+}
+.card{
+    border-radius: 12px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.input{
+    border-radius: 12px;
+    border-color: white;
+    background-color: #284664;
+}
+.header{
+    background: url("../img/body.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header:after{
+    content: "";
+    background: #181818;
+    position: absolute;
+    opacity: 0.7019607843137254;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.header .container{
+    z-index: 1;
+    position: relative;
+}
+.input::placeholder{
+    color: white;
+}
+.header-p{
+    color: white;
+    font-family: cursive;
+}
